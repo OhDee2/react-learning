@@ -1,7 +1,13 @@
 export default function Congratulations(){
+    const name = 'James';
     return (
         <>
-            <h1>Congratulations!</h1>
+            <h1 style={{
+                color: 'green',
+                fontSize: '2em'
+            }}>
+                Congratulations {name}!
+            </h1>
             <p>
                 You have successfully created a new Vite + React project.
             </p>
