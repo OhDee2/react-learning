@@ -1,5 +1,4 @@
-export default function Congratulations(){
-    const name = 'James';
+export default function Congratulations({name}){
     return (
         <>
             <h1 style={{
